@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+backend-prefect/.env
+backend-prefect/*.db
+
+# Node / Expo (mobile-authenticator tiene su propio .gitignore)
+node_modules/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Configuración local de herramientas
+.claude/

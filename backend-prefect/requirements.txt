@@ -1,0 +1,14 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+prefect>=3.4,<4
+sqlalchemy>=2.0,<3
+pyjwt>=2.8,<3
+qrcode>=7.4
+python-dotenv>=1.0
+cryptography>=42
+# Driver de Postgres: solo hace falta si DATABASE_URL apunta a Supabase
+psycopg[binary]>=3.1
+
+# Pruebas
+pytest>=8
+httpx>=0.27
